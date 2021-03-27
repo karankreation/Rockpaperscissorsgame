@@ -9,7 +9,10 @@ computer_lives = 3
 total_lives = 3
 
 
+#player_choice = choices[1] 
+
 player_choice = False
+
 
 
 def winorlose(status):
@@ -88,3 +91,34 @@ while player_choice is False:
 
 
     player_choice = False
+=======
+if computer_choice == player_choice: 
+    print("tie")
+    
+elif computer_choice == "rock":
+    if player_choice == "scissors":
+        print("you lose!")
+        player_lives -= 1
+    else:
+        print("you win!")
+        computer_lives -= 1
+
+elif computer_choice == "paper":
+    if player_choice == "scissors":
+        print("you win!")
+        computer_lives -= 1
+
+    else:
+        print("you lose!")
+        player_lives -= 1
+        
+elif computer_choice == "scissors":
+    if player_choice == "paper":
+        print("you lose!")
+        player_lives -= 1
+    else: 
+        print("you win!")  
+        computer_lives -= 1
+
+print("player lives:", player_lives)
+print("computer lives:", computer_lives)
