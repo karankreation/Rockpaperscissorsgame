@@ -1,6 +1,23 @@
-VIRTUAL ROCK PAPER SCISSOR GAME
+ROCK PAPER SCISSORS = NOT A GAME!! IT'S AN EMOTION
  
-  A virtual version of rock paper scissor! 
+  Based on history, the game was played since the Han dynasty – the 2nd imperial dynasty of China from 202 BC until 220 AD.
+  The odds of winning rock paper scissors is one in three or 33.33%.
+
+  =======EVIL GAME=======???????
+  If the Rock Paper Scissors is evil game, then it is only the sons of the devil that can participate, and the raving fans are, of course, spectators in the evil circuit. That aside, the game continues to gather interest from people from different spheres of the world. Therefore, the idea that the game is evil is not even considered, or the game has been proven to be not evil. Whatever the case may be, the Rock Paper Scissors game is not just any regular game that could be brushed aside in the face of an assumption or presumed nature of evil.
+
+                                                  !!!! ROADMAP!!!!
+                                  *GAMER1 CHOSE ONE OF THREE OPTIONS
+                                  *COMPUTER CHOSE ONE OF THREE OPTIONS
+                                  *COMPARISON BEGUN BETWEEN TWO CHOICES
+                                  *LOOSER LOSE ONE LIFE
+                                  *MESSAGE DISPLAY
+                                  *GAME END WHEN ALL LIVES LOST
+                                  *GIVE AN OPTION TO QUIT
+                                  *REPEATING FULL SEQUENCE AGAIN
+
+                                                =====BANG BANG=====
+                                  
 
 
 
