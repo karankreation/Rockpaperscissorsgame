@@ -2,24 +2,10 @@
 
 
 from random import randint
-from gamecomponents import gameVars
+from gamecomponents import gameVars,winLose
 
 
-def winorlose(status):
-    #print("inside winorlose function; status is: ",status)
-    print("You", status, "! Would you like to play again?")
-    choice = input("Y / N? ")
 
-    if choice == "N" or choice == "n":
-        print("you chose to quit! Better luck next time!")
-        exit()
-    elif choice == "Y" or choice == "y":
-
-        gameVars.player_lives = gameVars.total_lives
-        gameVars.computer_lives = gameVars.total_lives
-    else:
-        print("Make a valid choice - Y or N")
-        choice = input("Y / N?")
 
 while gameVars.player_choice is False:
     print("=======================*/ RPS GAME */=======================")
@@ -71,10 +57,10 @@ while gameVars.player_choice is False:
     
    
     if gameVars.player_lives == 0:
-        winorlose("lose")
+        winLose.winorlose("lose")
     
     if gameVars.computer_lives == 0:
-        winorlose("won")
+        winLose.winorlose("won")
         
     
     print("player lives:", gameVars.player_lives)
